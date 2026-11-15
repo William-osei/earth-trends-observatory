@@ -1,0 +1,10 @@
+node_modules/
+tmp/
+outputs/
+dist/downloads/*.zip
+*.tar
+*.tar.gz
+*.log
+.env
+.env.*
+!.env.example

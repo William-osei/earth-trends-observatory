@@ -1,0 +1,10 @@
+{
+  "name": "earth-trends-observatory",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A reproducible NASA environmental time-series explorer.",
+  "scripts": {"start": "node scripts/serve.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check dist/app.mjs"},
+  "license": "MIT",
+  "ai_assistance": "OpenAI Codex assisted implementation, documentation and tests. NASA data values are not AI generated."
+}

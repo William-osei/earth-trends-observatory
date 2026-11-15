@@ -1,0 +1,173 @@
+{
+  "description": "Authentic NASA POWER snapshots, bundled for offline use. SI-assisted code added provenance only; NASA values were not SI-generated.",
+  "snapshots": [
+    {
+      "dataset": "NASA POWER monthly meteorological data",
+      "location": {
+        "id": "accra",
+        "name": "Accra, Ghana",
+        "latitude": 5.6037,
+        "longitude": -0.187
+      },
+      "sourceUrl": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M,PRECTOTCORR,RH2M&community=AG&longitude=-0.187&latitude=5.6037&format=JSON&start=1981&end=2025",
+      "retrievedAt": "2026-11-15T21:57:43.447Z",
+      "rawFile": "data/raw/power-accra.json",
+      "rawSha256": "f48f3044f75780bf404685d33de28091e73de24dcb0d0ca0512255b182cf07d0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "spatialResolution": "0.5 degree latitude by 0.625 degree longitude source MERRA-2 grid; this point represents a grid cell, not a local weather station",
+      "requestedYears": [
+        1981,
+        2025
+      ],
+      "dataType": "Reanalysis: assimilated observations and model estimates",
+      "license": "NASA POWER open data; attribution requested",
+      "methodology": "https://power.larc.nasa.gov/docs/methodology/data/sources_meteorology/",
+      "apiDocumentation": "https://power.larc.nasa.gov/docs/services/api/temporal/monthly/",
+      "processing": "Raw NASA API values preserved. Keys YYYY01 through YYYY12 are monthly values; YYYY13 is API annual value. Fill value is -999. Annual analyses should only include complete valid years. Use day-weighted means for T2M/RH2M; sum precipitation monthly mean mm/day times month day counts for annual mm.",
+      "file": "power-accra.json",
+      "counts": {
+        "PRECTOTCORR": {
+          "months": 540,
+          "missing": 0
+        },
+        "RH2M": {
+          "months": 540,
+          "missing": 0
+        },
+        "T2M": {
+          "months": 540,
+          "missing": 0
+        }
+      }
+    },
+    {
+      "dataset": "NASA POWER monthly meteorological data",
+      "location": {
+        "id": "ahmedabad",
+        "name": "Ahmedabad, India",
+        "latitude": 23.0225,
+        "longitude": 72.5714
+      },
+      "sourceUrl": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M,PRECTOTCORR,RH2M&community=AG&longitude=72.5714&latitude=23.0225&format=JSON&start=1981&end=2025",
+      "retrievedAt": "2026-11-15T21:58:06.999Z",
+      "rawFile": "data/raw/power-ahmedabad.json",
+      "rawSha256": "726b99fbdfbf2e8daf4de9c309ac9aeacc443f1a307080353d5bf67d295eb748",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "spatialResolution": "0.5 degree latitude by 0.625 degree longitude source MERRA-2 grid; this point represents a grid cell, not a local weather station",
+      "requestedYears": [
+        1981,
+        2025
+      ],
+      "dataType": "Reanalysis: assimilated observations and model estimates",
+      "license": "NASA POWER open data; attribution requested",
+      "methodology": "https://power.larc.nasa.gov/docs/methodology/data/sources_meteorology/",
+      "apiDocumentation": "https://power.larc.nasa.gov/docs/services/api/temporal/monthly/",
+      "processing": "Raw NASA API values preserved. Keys YYYY01 through YYYY12 are monthly values; YYYY13 is API annual value. Fill value is -999. Annual analyses should only include complete valid years. Use day-weighted means for T2M/RH2M; sum precipitation monthly mean mm/day times month day counts for annual mm.",
+      "file": "power-ahmedabad.json",
+      "counts": {
+        "PRECTOTCORR": {
+          "months": 540,
+          "missing": 0
+        },
+        "RH2M": {
+          "months": 540,
+          "missing": 0
+        },
+        "T2M": {
+          "months": 540,
+          "missing": 0
+        }
+      }
+    },
+    {
+      "dataset": "NASA POWER monthly meteorological data",
+      "location": {
+        "id": "manaus",
+        "name": "Manaus, Brazil",
+        "latitude": -3.119,
+        "longitude": -60.0217
+      },
+      "sourceUrl": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M,PRECTOTCORR,RH2M&community=AG&longitude=-60.0217&latitude=-3.119&format=JSON&start=1981&end=2025",
+      "retrievedAt": "2026-11-15T21:58:07.794Z",
+      "rawFile": "data/raw/power-manaus.json",
+      "rawSha256": "a16b5e428850b74434667909c0519142b08181d99f7ca9d0508f8ae6768aca84",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "spatialResolution": "0.5 degree latitude by 0.625 degree longitude source MERRA-2 grid; this point represents a grid cell, not a local weather station",
+      "requestedYears": [
+        1981,
+        2025
+      ],
+      "dataType": "Reanalysis: assimilated observations and model estimates",
+      "license": "NASA POWER open data; attribution requested",
+      "methodology": "https://power.larc.nasa.gov/docs/methodology/data/sources_meteorology/",
+      "apiDocumentation": "https://power.larc.nasa.gov/docs/services/api/temporal/monthly/",
+      "processing": "Raw NASA API values preserved. Keys YYYY01 through YYYY12 are monthly values; YYYY13 is API annual value. Fill value is -999. Annual analyses should only include complete valid years. Use day-weighted means for T2M/RH2M; sum precipitation monthly mean mm/day times month day counts for annual mm.",
+      "file": "power-manaus.json",
+      "counts": {
+        "PRECTOTCORR": {
+          "months": 540,
+          "missing": 0
+        },
+        "RH2M": {
+          "months": 540,
+          "missing": 0
+        },
+        "T2M": {
+          "months": 540,
+          "missing": 0
+        }
+      }
+    },
+    {
+      "dataset": "NASA POWER monthly meteorological data",
+      "location": {
+        "id": "longyearbyen",
+        "name": "Longyearbyen, Svalbard",
+        "latitude": 78.2232,
+        "longitude": 15.6469
+      },
+      "sourceUrl": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M,PRECTOTCORR,RH2M&community=AG&longitude=15.6469&latitude=78.2232&format=JSON&start=1981&end=2025",
+      "retrievedAt": "2026-11-15T21:58:07.227Z",
+      "rawFile": "data/raw/power-longyearbyen.json",
+      "rawSha256": "960586f47f8666f9ab6b5d5e6a02235c13fd2acef4625616aa526ffb5bf8a7aa",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "spatialResolution": "0.5 degree latitude by 0.625 degree longitude source MERRA-2 grid; this point represents a grid cell, not a local weather station",
+      "requestedYears": [
+        1981,
+        2025
+      ],
+      "dataType": "Reanalysis: assimilated observations and model estimates",
+      "license": "NASA POWER open data; attribution requested",
+      "methodology": "https://power.larc.nasa.gov/docs/methodology/data/sources_meteorology/",
+      "apiDocumentation": "https://power.larc.nasa.gov/docs/services/api/temporal/monthly/",
+      "processing": "Raw NASA API values preserved. Keys YYYY01 through YYYY12 are monthly values; YYYY13 is API annual value. Fill value is -999. Annual analyses should only include complete valid years. Use day-weighted means for T2M/RH2M; sum precipitation monthly mean mm/day times month day counts for annual mm.",
+      "file": "power-longyearbyen.json",
+      "counts": {
+        "PRECTOTCORR": {
+          "months": 540,
+          "missing": 0
+        },
+        "RH2M": {
+          "months": 540,
+          "missing": 0
+        },
+        "T2M": {
+          "months": 540,
+          "missing": 0
+        }
+      }
+    }
+  ]
+}
